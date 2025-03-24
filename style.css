@@ -1,0 +1,137 @@
+body{
+  background-color: black;
+  text-align: center  ;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+  
+.searchbar{
+  border: 1;
+  height: 50px;
+  width: 500px;
+  border-radius:100px 0 0 100px ;
+  margin-right: 0;
+  margin-bottom: 70px;
+}
+.buttonsearch{
+  margin-left: 0;
+  border-radius: 0 20px 20px 0;
+  height: 50px;
+  border: 1;
+  margin-top: 100px;
+  cursor: pointer;
+}
+.footer
+{
+  background-color: rgb(15, 15, 15);
+  color: white;
+  padding-top: 20px;
+}
+
+.comment {
+  font-size: 18px;
+  color: black; 
+  font-style: italic;
+}
+.homeclass{
+  display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    gap: 10px; 
+    padding: 10px 10px; 
+    background-color: black;
+    color: white;
+
+
+}
+a{
+  cursor: pointer;
+  color: white;
+  text-decoration-line: none;
+}
+a:hover{
+  color: red;
+}
+.typewriter-text{
+  color: blue;
+  width: 30px;
+  font-size: 20px;
+  
+}
+.body1{
+  background-color: white;
+  color: black;
+  margin: none;
+    width: full; 
+    top: 0;
+    left: 0;
+
+
+
+}
+
+.typewriter-container{
+  text-align: left;
+}
+
+.my-project{
+  text-align: center;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.project-card {
+  background: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05); 
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project-card h3 {
+  color: #FFD700;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  background: #00aaff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project-card a:hover {
+  background: #0088cc;
+}
+
+.span1{
+  color: #333;
+  cursor: pointer;
+
+}
+
+.span1:hover{
+  color: red;
+}
+
+
